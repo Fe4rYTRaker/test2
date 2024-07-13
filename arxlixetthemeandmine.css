@@ -1,0 +1,34 @@
+/* Background Animation */
+#app-mount.appMount_ea7e65 {
+    background-size: 300%;
+}
+#app-mount.appMount_ea7e65 {
+    animation: Gradient 5s ease infinite;
+}
+@keyframes Gradient {
+    0% {
+        background-position:0 100%
+    }
+    50% {
+        background-position:100% 100%
+    }
+    100% {
+        background-position:0 100%
+    }
+}
+
+.activity-E0U09Y {
+    background-size: 300%;
+    animation: ActivityGradient 1s ease infinite;
+}
+@keyframes ActivityGradient {
+    0% {
+        background-position:0 100%
+    }
+    50% {
+        background-position:150% 100%
+    }
+    100% {
+        background-position:0 100%
+    }
+}
